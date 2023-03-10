@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Alumni+Sans:wght@500;900&display=swap');
+
+*{
+    display: inline-block;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+intro_container{
+   flex-wrap: wrap;  
+    padding: 10px 0;
+    height: 400px;
+    width: 500px;
+    align-items: center;
+    display: flex;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+h2{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.cv{
+    display: inline-flex;
+}
+.titulo2 {
+    color: red;
+    padding: 20px 0;
+    background-color: aqua;
+}
+#id-parrafo{
+    color:blueviolet;
+}
