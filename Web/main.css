@@ -3,22 +3,34 @@
 *{
     display: inline-block;
     font-family: 'Alumni Sans', sans-serif;
+    
 }
-
-intro_container{
-   flex-wrap: wrap;  
-    padding: 10px 0;
-    height: 400px;
-    width: 500px;
-    align-items: center;
+body{
+    background: rgb(131, 130, 130);
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.intro_container{
+    padding: 50px 10px;
+    height: 600px;
+    width: 800px;
+    background-image: url(./img/croquis_0001.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.intro_titulos{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
 }
 
 h1{
     text-transform: uppercase;
-    text-align: center;
     letter-spacing: 3px;
     font-weight: 900;
+    padding: 0 10px;
 }
 h2{
     font-family: 'Alumni Sans Pinstripe', sans-serif;
