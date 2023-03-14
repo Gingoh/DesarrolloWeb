@@ -12,18 +12,26 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
-.intro_container{
+.container{
     padding: 50px 10px;
+    
+}
+.intro_container{
+    
     height: 600px;
     width: 800px;
     background-image: url(./img/croquis_0001.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    filter: contrast(80%);
+    filter:brightness(1)
 }
 .intro_titulos{
+    position:inherit;
     display: flex;
     align-items: baseline;
     justify-content: center;
+    background-color: #fff;
 }
 
 h1{
