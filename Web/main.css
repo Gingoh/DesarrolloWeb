@@ -45,7 +45,15 @@ h2{
 }
 
 .cv{
-    display: inline-flex;
+    display: grid;
+}
+
+.cv_image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    filter: grayscale(100%);
 }
 .titulo2 {
     color: red;
